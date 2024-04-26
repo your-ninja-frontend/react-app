@@ -1,0 +1,25 @@
+.nav {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  background-color: blanchedalmond;
+}
+
+.nav__list {
+  display: flex;
+  justify-content: space-evenly;
+  width: 500px;
+  list-style: none;
+  padding: 15px;
+}
+
+.nav__link {
+  text-decoration: none;
+  color: brown;
+  font-size: 1.5rem;
+}
+
+.nav .nav__logout {
+  height: 50%;
+  align-self: center;
+}

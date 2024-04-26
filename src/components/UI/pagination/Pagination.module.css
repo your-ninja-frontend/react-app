@@ -1,0 +1,14 @@
+.page {
+  display: inline-block;
+  margin: 20px 10px 0 0;
+  padding: 10px;
+  border: 1px solid crimson;
+  color: crimson;
+  cursor: pointer;
+}
+
+.page__current {
+  border: none;
+  color: black;
+  cursor: auto;
+}
